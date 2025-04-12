@@ -1,0 +1,6 @@
+# Ignorar arquivos específicos
+Chat_completo_cloude.txt
+_ren.bat
+
+# Ignorar a pasta db e todo seu conteúdo
+db/
