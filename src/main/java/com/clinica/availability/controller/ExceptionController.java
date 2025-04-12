@@ -1,7 +1,7 @@
 package com.clinica.availability.controller;
 
 import com.clinica.availability.model.AvailabilityException;
-import com.clinica.availability.service.ExceptionService;
+import com.clinica.availability.timeslot.service.ExceptionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

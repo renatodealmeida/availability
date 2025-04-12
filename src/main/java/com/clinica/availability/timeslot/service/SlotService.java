@@ -1,10 +1,10 @@
-package com.clinica.availability.service;
+package com.clinica.availability.timeslot.service;
 
 import com.clinica.availability.model.TimeSlot;
-import com.clinica.availability.model.TimeSlot.SlotStatus;
-import com.clinica.availability.repository.HistoricalSlotRepository;
-import com.clinica.availability.repository.OccupancySummaryRepository;
-import com.clinica.availability.repository.TimeSlotRepository;
+//import com.clinica.availability.model.TimeSlot.SlotStatus;
+import com.clinica.availability.timeslot.repository.HistoricalSlotRepository;
+import com.clinica.availability.timeSlot.repository.OccupancySummaryRepository;
+import com.clinica.availability.timeSlot.repository.TimeSlotRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
