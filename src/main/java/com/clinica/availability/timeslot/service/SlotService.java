@@ -77,8 +77,8 @@ public class SlotService {
 
         // Verificar cache
         @SuppressWarnings("unchecked")
-        Map<String, Object> cachedSlot =
-            (Map<String, Object>>) redisTemplate.opsForValue().get(cacheKey);
+        // Map<String, Object> cachedSlot = (Map<String, Object>>) redisTemplate.opsForValue().get(cacheKey);
+           Map<String, Object> cachedSlot = (Map<String, Object>) redisTemplate.opsForValue().get(cacheKey);            
 
         if (cachedSlot != null) {
             return cachedSlot;
